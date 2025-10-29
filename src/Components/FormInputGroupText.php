@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Components;
+namespace PacoOrozco\LaravelFormComponents\Components;
 
 class FormInputGroupText extends Component
 {

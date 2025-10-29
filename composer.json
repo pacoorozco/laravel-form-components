@@ -1,8 +1,7 @@
 {
-    "name": "protonemedia/laravel-form-components",
+    "name": "pacoorozco/laravel-form-components",
     "description": "Blade components to rapidly build forms with Tailwind CSS Custom Forms and Bootstrap 4.",
     "keywords": [
-        "protonemedia",
         "tailwind",
         "tailwindcss",
         "bootstrap",
@@ -18,13 +17,18 @@
         "laravel-form-builder",
         "laravel-form-components"
     ],
-    "homepage": "https://github.com/protonemedia/laravel-form-components",
+    "homepage": "https://github.com/pacoorozco/laravel-form-components",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Pascal Baljet",
             "email": "pascal@protone.media",
+            "role": "Author"
+        },
+        {
+            "name": "Paco Orozco",
+            "email": "pakus@pakusland.net",
             "role": "Developer"
         }
     ],
@@ -44,12 +48,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFormComponents\\": "src"
+            "PacoOrozco\\LaravelFormComponents\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFormComponents\\Tests\\": "tests"
+            "PacoOrozco\\LaravelFormComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -64,7 +68,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ProtoneMedia\\LaravelFormComponents\\Support\\ServiceProvider"
+                "PacoOrozco\\LaravelFormComponents\\Support\\ServiceProvider"
             ]
         }
     }

@@ -1,6 +1,8 @@
 MIT License
 
-Copyright (c) Protone Media B.V.
+Copyright for portions of this package are held by Protone Media B.v. as part 
+of project protonemedia/laravel-form-components. All other copyright for are 
+held by Paco Orozco, 2025.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

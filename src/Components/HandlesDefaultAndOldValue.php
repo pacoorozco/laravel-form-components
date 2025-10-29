@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Components;
+namespace PacoOrozco\LaravelFormComponents\Components;
 
 trait HandlesDefaultAndOldValue
 {

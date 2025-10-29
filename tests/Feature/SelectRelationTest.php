@@ -1,11 +1,11 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace PacoOrozco\LaravelFormComponents\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use PacoOrozco\LaravelFormComponents\Tests\TestCase;
 
 class PostBelongsToMany extends Model
 {

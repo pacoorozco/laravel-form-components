@@ -1,9 +1,9 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Unit;
+namespace PacoOrozco\LaravelFormComponents\Tests\Unit;
 
-use ProtoneMedia\LaravelFormComponents\FormDataBinder;
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use PacoOrozco\LaravelFormComponents\FormDataBinder;
+use PacoOrozco\LaravelFormComponents\Tests\TestCase;
 
 class FormDataBinderTest extends TestCase
 {

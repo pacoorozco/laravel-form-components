@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace PacoOrozco\LaravelFormComponents\Tests\Feature;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Translatable\HasTranslations;

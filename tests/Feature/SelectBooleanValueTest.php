@@ -1,8 +1,8 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests\Feature;
+namespace PacoOrozco\LaravelFormComponents\Tests\Feature;
 
-use ProtoneMedia\LaravelFormComponents\Tests\TestCase;
+use PacoOrozco\LaravelFormComponents\Tests\TestCase;
 
 class SelectBooleanValueTest extends TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace ProtoneMedia\LaravelFormComponents\Tests;
+namespace PacoOrozco\LaravelFormComponents\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\View;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\BrowserKit\TestCase as BaseTestCase;
-use ProtoneMedia\LaravelFormComponents\Support\ServiceProvider;
+use PacoOrozco\LaravelFormComponents\Support\ServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

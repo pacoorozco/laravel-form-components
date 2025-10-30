@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-form-components` will be documented in this file
 
+## 4.0.0 - 2025-10-30
+
+This is the first release after forking from the archived `protonemedia/laravel-form-components` package.
+
+> **Note**: This release contains no functional changes - only namespace and package name updates. Your existing forms will work exactly as before after following the migration guide described in the README of this package.
+
 ## 3.6.0 - 2022-02-04
 
 - Support for Laravel 9

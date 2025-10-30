@@ -6,6 +6,8 @@ A set of Blade components to rapidly build forms with [Tailwind CSS v1](https://
 
 This is a fork of the deprecated and archived [protonemedia/laravel-form-components](https://github.com/protonemedia/laravel-form-components) package. I want to thank [Pascal Baljet](https://github.com/pascalbaljet) for the amazing work he did creating this fantastic package. I'm maintaining this fork because I use it in several projects (mainly with the Bootstrap framework) and I'll do my best to keep it compatible with future versions of Laravel and Bootstrap. While I don't expect to build a large community like the original project had, everyone is welcome to contribute and use this package.
 
+Read the [Migration guide](#migration-guide) to change your code and use this fork.
+
 ## Features
 
 * Components for input, textarea, select, multi-select, checkbox and radio elements.
@@ -87,6 +89,38 @@ Let's take a look at this `x-form` example. The `action` attribute is optional, 
 <x-form :action="route('api.user.store')" v-on:submit="checkForm">
     <!-- ... -->
 </x-form>
+```
+
+## Migration guide
+
+Migrating from `protonemedia/laravel-form-components` is straightforward:
+
+1. Update `composer.json`
+
+```
+"require": {
+-   "protonemedia/laravel-form-components": "^3.0"
++   "pacoorozco/laravel-form-components": "^4.0"
+    }
+```
+
+2. Update namespace references
+
+Replace all namespace references in your codebase:
+
+```
+- ProtoneMedia\LaravelFormComponents
++ PacoOrozco\LaravelFormComponents
+```
+
+3. Update published assets (if any)
+
+If you previously published the package's config or views:
+
+```
+php artisan vendor:publish
+--provider="PacoOrozco\LaravelFormComponents\Support\ServiceProvider"
+--force
 ```
 
 ## Configuration

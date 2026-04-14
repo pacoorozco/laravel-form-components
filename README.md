@@ -1,3 +1,9 @@
+# Moved to Codeberg
+
+This repository has been moved to [https://codeberg.org/pakus/laravel-form-components](https://codeberg.org/pakus/laravel-form-components.git).
+
+---
+
 # Laravel Form Components
 
 A set of Blade components to rapidly build forms with [Tailwind CSS v1](https://tailwindcss-custom-forms.netlify.app), [Tailwind CSS v2](https://tailwindcss-forms.vercel.app), [Bootstrap 4](https://getbootstrap.com/docs/4.0/components/forms/) and [Bootstrap 5](https://getbootstrap.com/docs/5.1/forms/overview/). Supports validation, model binding, default values, translations, includes default vendor styling and fully customizable!
